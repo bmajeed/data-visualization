@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"dsznajder.es7-react-js-snippets",
+		"dbaeumer.vscode-eslint",
+		"ecmel.vscode-html-css",
+		"ms-vscode.vscode-typescript-next",
+		"eg2.vscode-npm-script",
+		"jawandarajbir.react-vscode-extension-pack",
+		"xabikos.reactsnippets",
+		"bradlc.vscode-tailwindcss"
+	]
+}

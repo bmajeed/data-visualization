@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+		".vscode": true,
+		"*.cjs": true,
+		"*.gitignore": true,
+		"package-lock.json": true,
+		"tsconfig.json": true,
+		"node_modules": true,
+		"vite.config.ts": true,
+		"public/robots.txt": true,
+		"index.html": true,
+		"src/index.tsx": true,
+		"dist": true
+	},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
