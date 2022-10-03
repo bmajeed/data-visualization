@@ -24,7 +24,10 @@ function Sales({
   minYear: number;
   maxYear: number;
 }) {
-  const [lineData, setLineData] = useState({ labels: [] as any, datasets: [] as any });
+  const [lineData, setLineData] = useState({
+    labels: [] as any,
+    datasets: [] as any,
+  });
   const K = 1000;
 
   useEffect(() => {
@@ -38,12 +41,8 @@ function Sales({
         lineData.datasets = [];
 
         // temp arrays to store data for lines to set to state with later
-		    let lines: any = [];
+        let lines: any = [];
         let years = [];
-
-        // console.log("before first danfo funciton call");
-        // console.log(salesData);
-        // salesData.print();
 
         // define years range [minYear - maxYear]
         const yearsFilter = salesData["Year"]

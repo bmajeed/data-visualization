@@ -29,8 +29,6 @@ function ChartGrid({
       setCol("grid-2");
     if (charts.length === 1) setCol("grid-one");
 
-    console.log(charts.length);
-    console.log(charts);
   }, [charts.length]);
 
   return (

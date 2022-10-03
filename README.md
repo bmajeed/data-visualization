@@ -2,13 +2,11 @@
 
 - below is technical details I wrote about the project and instructions for future maintainers of the project
 
-![Aramco](./public/images/Aramco.png)
-
-<h1 align="center">TEAM Web Dashboard</h1>
+<h1 align="center">Data Visualization Web Dashboard</h1>
 
 ## Goal:
 
-- Create a dynamic and interactive web data dashboard using Typescript with ReactJS
+- Create a responsive and interactive web data dashboard using Typescript with ReactJS to display key powertrain metric projection data
 
 ## Usage:
 
@@ -43,8 +41,3 @@ From the root directory, you can run the following commands in the terminal:
 - [Vercel](https://vercel.com/)
 - [Google Cloud](https://cloud.google.com/) has [BigQuery](https://cloud.google.com/bigquery) with ML built-in [AI, ML, and Deep Learning tools](https://cloud.google.com/products/ai)
 
-## Collaborators:
-
-- Oak Ridge National Laboratory
-- Argonne National Laboratory
-- Aramco Detroit Research & Development Center
